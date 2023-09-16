@@ -1,5 +1,4 @@
 import os
-import sys
 import wmi
 import sys
 
@@ -10,7 +9,6 @@ def running_processes():
 
     for process in f.Win32_Process():
         print(f"{process.ProcessId:10} {process.Name} {process.ExecutablePath}")
-
 
 if __name__ == "__main__":
 
