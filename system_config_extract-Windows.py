@@ -4,7 +4,7 @@ import psutil
 import socket
 import subprocess
 
-
+ 
 # converts bytes to gigabytes
 def bytes_to_gb(bytes):
     return round(bytes / 1024 ** 3, 2)
