@@ -1,7 +1,4 @@
 import yfinance as yf
-from datetime import datetime,timedelta
-
-import yfinance as yf
 import argparse
 from datetime import datetime, timedelta
 
